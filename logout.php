@@ -7,6 +7,6 @@ session_start();
         $result = $BD->ejecutar($query);
 		
 session_destroy();
-header("Location: index");
+header("Location: index.php");
 
 ?>

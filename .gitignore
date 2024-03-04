@@ -1,0 +1,11 @@
+/node_modules
+#clases/util/
+wp/
+#busqueda/*.png
+#assets/avatars/
+cargas/
+.env
+.env.local
+imagenes/firmas/*
+imgdocumentos/*
+.github/*

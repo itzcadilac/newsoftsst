@@ -25,7 +25,8 @@ if (isset($_POST['validar'])) {
       $fec = new Fecha();
       $_SESSION['mostrarfecha'] = $fec->Fechalet(date("Y-n-j H:i:s"),false);
       if ($u->tipo == 1 or $u->tipo==10 or $u->tipo==0){
-        header("Location: principal.php");
+        header('Location: principal.php');
+        exit;
         }
       else if ($u->tipo == 20){
         header("Location: controlador.php?pagina=0");
@@ -46,10 +47,10 @@ if (isset($_POST['validar'])) {
       } 
     else
       {
-      $tpl = new Plantilla();
-      $tpl->assign('error_msg', "Usuario y/o Clave incorrectos.");
+      //$tpl = new Plantilla();
+      //$tpl->assign('error_msg', "Usuario y/o Clave incorrectos.");
       //$tpl->display("login.tpl.php");
-	    header("Location: index.php");
+	    header('Location: index.php');
       exit(0);
     }
 }

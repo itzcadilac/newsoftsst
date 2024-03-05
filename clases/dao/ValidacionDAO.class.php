@@ -117,7 +117,7 @@ class ValidacionDAO{
         //$query="update usuario set conectado = 0 where idusuario like '".$_SESSION['idusuario']."'";
         //$result = $BD->ejecutar($query);
        session_destroy(); // destruyo la sesi�n
-       header("Location: ingreso.php"); //env�o al usuario a la pag. de autenticaci�n
+       header('Location: index.php'); //env�o al usuario a la pag. de autenticaci�n
        //sino, actualizo la fecha de la sesi�n
        return false;
        }else {

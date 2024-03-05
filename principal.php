@@ -64,7 +64,7 @@ $lista = $ListaSolicitudes->ListarSolicitudes();
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
     <title>Training Soft</title>
     <!-- This page css -->
     <!-- Custom CSS -->

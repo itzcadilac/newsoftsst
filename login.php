@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "./conf.php";
+require_once './conf.php';
 if (isset($_POST['validar'])) {
     $usuariodao = new ValidacionDAO();
     $u = $usuariodao->login($_POST['idusuario'], $_POST['clave'], $_POST['tipuser']);

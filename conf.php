@@ -2,7 +2,7 @@
 //session_start();
 
 define('APP_BASEDIR', dirname(__FILE__));
-//print APP_BASEDIR;
+print APP_BASEDIR;
 require(APP_BASEDIR . '/vendor/autoload.php');
 
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
